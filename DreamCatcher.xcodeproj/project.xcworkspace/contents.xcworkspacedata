@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../DreamCatcher/DetailViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../DreamCatcher/DetailViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:../ListViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../ListViewController.m">
+   </FileRef>
+   <FileRef
       location = "self:DreamCatcher.xcodeproj">
    </FileRef>
 </Workspace>

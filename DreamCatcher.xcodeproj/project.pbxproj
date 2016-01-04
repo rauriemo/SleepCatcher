@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		3273A2761C371E43004CD0D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3273A2751C371E43004CD0D0 /* main.m */; };
 		3273A2791C371E43004CD0D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3273A2781C371E43004CD0D0 /* AppDelegate.m */; };
-		3273A27C1C371E43004CD0D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3273A27B1C371E43004CD0D0 /* ViewController.m */; };
 		3273A27F1C371E43004CD0D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3273A27D1C371E43004CD0D0 /* Main.storyboard */; };
 		3273A2811C371E43004CD0D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3273A2801C371E43004CD0D0 /* Images.xcassets */; };
 		3273A2841C371E43004CD0D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3273A2821C371E43004CD0D0 /* LaunchScreen.xib */; };
 		3273A2901C371E43004CD0D0 /* DreamCatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3273A28F1C371E43004CD0D0 /* DreamCatcherTests.m */; };
+		3273A29B1C37210F004CD0D0 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3273A29A1C37210F004CD0D0 /* ListViewController.m */; };
+		3273A29E1C3AD886004CD0D0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3273A29D1C3AD886004CD0D0 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		3273A2751C371E43004CD0D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3273A2771C371E43004CD0D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3273A2781C371E43004CD0D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3273A27A1C371E43004CD0D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3273A27B1C371E43004CD0D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3273A27E1C371E43004CD0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3273A2801C371E43004CD0D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3273A2831C371E43004CD0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3273A2891C371E43004CD0D0 /* DreamCatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamCatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3273A28E1C371E43004CD0D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3273A28F1C371E43004CD0D0 /* DreamCatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamCatcherTests.m; sourceTree = "<group>"; };
+		3273A2991C37210F004CD0D0 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = DreamCatcher.xcodeproj/../ListViewController.h; sourceTree = SOURCE_ROOT; };
+		3273A29A1C37210F004CD0D0 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = DreamCatcher.xcodeproj/../ListViewController.m; sourceTree = SOURCE_ROOT; };
+		3273A29C1C3AD886004CD0D0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3273A29D1C3AD886004CD0D0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,12 @@
 		3273A2721C371E43004CD0D0 /* DreamCatcher */ = {
 			isa = PBXGroup;
 			children = (
+				3273A29C1C3AD886004CD0D0 /* DetailViewController.h */,
+				3273A29D1C3AD886004CD0D0 /* DetailViewController.m */,
+				3273A2991C37210F004CD0D0 /* ListViewController.h */,
+				3273A29A1C37210F004CD0D0 /* ListViewController.m */,
 				3273A2771C371E43004CD0D0 /* AppDelegate.h */,
 				3273A2781C371E43004CD0D0 /* AppDelegate.m */,
-				3273A27A1C371E43004CD0D0 /* ViewController.h */,
-				3273A27B1C371E43004CD0D0 /* ViewController.m */,
 				3273A27D1C371E43004CD0D0 /* Main.storyboard */,
 				3273A2801C371E43004CD0D0 /* Images.xcassets */,
 				3273A2821C371E43004CD0D0 /* LaunchScreen.xib */,
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3273A27C1C371E43004CD0D0 /* ViewController.m in Sources */,
 				3273A2791C371E43004CD0D0 /* AppDelegate.m in Sources */,
 				3273A2761C371E43004CD0D0 /* main.m in Sources */,
+				3273A29B1C37210F004CD0D0 /* ListViewController.m in Sources */,
+				3273A29E1C3AD886004CD0D0 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
